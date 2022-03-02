@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: red;
+    height: 50px;
+}
+
+header nav a{
+    text-decoration: none;
+    margin-right: 10px;
+    color: #aaa;
+}
+
+header nav a:hover{
+    color: dodgerblue;
+}
+
+.film-principal{
+    font-size: 16px;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5) 100%),url("../img/bg.jpg");
+    background-size: cover;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.film-principal .description{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+.film-principal .title{
+    margin-top: 15px;
+    font-size: 40px;
+}
+
+.button-watch{
+    background-color: rgba(0,0,0,0.5);
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 15px 30px;
+}
+
+.button-watch:hover{
+    opacity: 0.7;
+    color: #404040;
+}
+
+.container{
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.film-principal.container{
+    width: 70%;
+}
+
+.box-film{
+    height: 25vh;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+    display: flex;
+    flex: row;
+    border-radius: 2%;
+}
+
+.carousel-films{
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+main .film-principal{
+    margin-left: 10px;
+}
+
+main .watch{
+    margin-left: 10px;
+    padding: 1em;
+    border: none;
+    color: white;
+    background: #404040;
+    opacity: 0.5;
+}
+
+main .info{
+    margin-left: 30px;
+    padding: 1em;
+    border: none;
+    color: white;
+    background: #404040;
+    opacity: 0.5;
+}
+
+main .watch:hover{
+    opacity: 1;
+}
+
+main .info:hover{
+    opacity: 1;
+}
+
+*/
